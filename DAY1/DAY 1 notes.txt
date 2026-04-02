@@ -8,3 +8,6 @@ yt - Life at Google
 conversion of value from one data type to another data type is called as typecasting
 input function bydefault accepts only string value 
 there are total 33 reserver keywords in python that comes along w python they are inbuilt
+
+when we want to do adress comparison then we should go for identity operators
+by using membership operator we check that the object is present or not in collection data structure like(list, tuple,set,dict,string)
