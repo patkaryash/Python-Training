@@ -1,0 +1,1 @@
+to extracting sub string from given string is basically known as slicing of string
