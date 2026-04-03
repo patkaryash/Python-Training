@@ -1,1 +1,10 @@
 to extracting sub string from given string is basically known as slicing of string
+there are 4 types of collection data type in python
+list: orderwise data, hetereogenious,growable,heterogeneous,mutable
+
+alising of list means assigning one variable references to another variable
+
+tuple is immutable 
+
+diff bw list and tuple: if clients requirements are not going to change then we use tuple but
+ if the client says that the requirements may change in future then we use list
