@@ -8,7 +8,8 @@ Beginner-friendly Python practice programs and notes, organized by day so each t
 Coding-Prashant-JHA/
 ├── README.md
 ├── DAY1/
-└── DAY2/
+├── DAY2/
+└── DAY3/
 ```
 
 ## What’s Inside
@@ -26,6 +27,14 @@ Core Python basics and beginner exercises:
 - nested `if` logic
 - simple arithmetic practice
 
+### Learning Path
+
+If you want to follow the repo in order, this is the rough progression:
+
+1. `DAY1` - Python basics like variables, conditions, `id()`, type conversion, and simple calculations.
+2. `DAY2` - Lists, strings, tuples, loops, and beginner problem-solving practice.
+3. `DAY3` - Functions, dictionaries, nested loops, and slightly more structured exercises.
+
 ### DAY2
 
 Collection and loop practice:
@@ -42,9 +51,24 @@ Collection and loop practice:
 - basic string counting and anagram checks
 - BODMAS / expression evaluation practice
 
+### DAY3
+
+Functions, dictionaries, and more loop practice:
+
+- defining and calling functions
+- positional arguments and input handling
+- dictionary basics and key/value traversal
+- duplicate keys and dictionary identity notes
+- finding the key with the minimum value
+- majority element practice
+- nested for-loop triangle patterns
+- rearranging positive and negative numbers
+
 ## File Guide
 
 ### DAY1
+
+Foundational Python examples covering variables, operators, input, and simple control flow.
 
 | File | Purpose |
 | --- | --- |
@@ -73,6 +97,8 @@ Collection and loop practice:
 
 ### DAY2
 
+Practice with lists, strings, tuples, and loop-based problem solving.
+
 | File | Purpose |
 | --- | --- |
 | `DAY2/list.py` | List basics |
@@ -97,12 +123,27 @@ Collection and loop practice:
 | `DAY2/Bodmas.py` | BODMAS / arithmetic expression practice |
 | `DAY2/DAY 2 Notes.txt` | Notes on slicing, lists, tuples, and aliasing |
 
+### DAY3
+
+Functions, dictionaries, and pattern exercises that build on the earlier days.
+
+| File | Purpose |
+| --- | --- |
+| `DAY3/functions.py` | Basic function definition and arithmetic return values |
+| `DAY3/argumentfun.py` | Positional argument / login example |
+| `DAY3/dictionary.py` | Dictionary basics, key-value access, and updates |
+| `DAY3/dictQuiz.py` | Dictionary practice questions and minimum-value key search |
+| `DAY3/majorityelement.py` | Majority element practice using list counting |
+| `DAY3/nestedfor.py` | Nested `for` loop pattern practice |
+| `DAY3/rearrange.py` | Rearranging positive and negative numbers |
+| `DAY3/DAY3 notes.txt` | Notes on functions, dictionaries, and nested loops |
+
 ## How to Run
 
 Run any file from the repository root:
 
 ```bash
-python DAY2/list.py
+python DAY3/functions.py
 ```
 
 Some programs expect terminal input, while others print output directly.

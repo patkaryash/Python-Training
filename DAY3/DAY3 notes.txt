@@ -1,1 +1,12 @@
 Dictionary datatype represent data as key and value pair 
+
+function is a self contained block which is executed separately 
+types - built in function ,  user defined
+built in - predefined function is already present inside of python library.
+user defined- acc to program requirements programmer can developed the function this is called user defined function.
+
+Q.How many types of argument we can pass in function
+1.Postitional argument 
+2.Keyword argument 
+3.Default argument 
+4.Variable number of argument / variable length argument 
