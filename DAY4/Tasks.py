@@ -65,6 +65,3 @@
 # print("Vowels: ", vowel)
 # print("Consonants: ", cons)
 
-
-
-    

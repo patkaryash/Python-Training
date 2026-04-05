@@ -9,10 +9,16 @@ Coding-Prashant-JHA/
 ├── README.md
 ├── DAY1/
 ├── DAY2/
-└── DAY3/
+├── DAY3/
+├── DAY4/
+├── myfile.txt
+├── results1.csv
+├── students.csv
+├── cowboy.jpg
+└── album poster.jpg
 ```
 
-## What’s Inside
+## What's Inside
 
 ### DAY1
 
@@ -34,6 +40,7 @@ If you want to follow the repo in order, this is the rough progression:
 1. `DAY1` - Python basics like variables, conditions, `id()`, type conversion, and simple calculations.
 2. `DAY2` - Lists, strings, tuples, loops, and beginner problem-solving practice.
 3. `DAY3` - Functions, dictionaries, nested loops, and slightly more structured exercises.
+4. `DAY4` - String methods, exception handling, file handling, and CSV writing practice.
 
 ### DAY2
 
@@ -65,6 +72,17 @@ Functions, dictionaries, and more structured practice:
 - nested for-loop triangle patterns
 - rearranging positive and negative numbers
 - string trimming and `rstrip()` practice
+
+### DAY4
+
+Predefined string methods, exception handling, file handling, and CSV practice:
+
+- string checks such as `isalnum()`, `isalpha()`, `isdigit()`, `startswith()`, and `endswith()`
+- `find()`, `index()`, and `count()`
+- `try`/`except`/`else`/`finally` and nested exception handling
+- text and binary file handling with `open()`, `read()`, `write()`, and `with`
+- CSV writing for student and result records
+- extra practice with list products, vowel/consonant counting, and removing list elements
 
 ## File Guide
 
@@ -142,12 +160,41 @@ Functions, dictionaries, and pattern exercises that build on the earlier days.
 | `DAY3/stripfun.py` | String trimming and `rstrip()` practice |
 | `DAY3/DAY3 notes.txt` | Notes on functions, dictionaries, and nested loops |
 
+### DAY4
+
+Predefined functions, exception handling, file handling, and CSV practice.
+
+| File | Purpose |
+| --- | --- |
+| `DAY4/predefinedfun.py` | String helper methods like `isalnum()`, `startswith()`, `find()`, and `count()` |
+| `DAY4/exceptionhandling.py` | `try`/`except`/`else`/`finally` examples and nested exception handling |
+| `DAY4/filehandling.py` | Text and binary file handling examples using `open()`, `read()`, `write()`, and `with` |
+| `DAY4/importcsv.py` | Appends student details to `students.csv` |
+| `DAY4/result.py` | Appends marks, total, percentage, email, and pass/fail result to `results1.csv` |
+| `DAY4/product.py` | Calculates the product of list elements |
+| `DAY4/removeoccurence.py` | Removes all occurrences of a chosen element from a list |
+| `DAY4/Tasks.py` | Mixed practice tasks on dictionaries, counting, loops, login checks, and vowel/consonant counting |
+| `DAY4/vowels cons.py` | Counts vowels and consonants in a string |
+| `DAY4/Day 4 notes.txt` | Notes on predefined functions, exception handling, and file handling |
+
+## Generated Files
+
+Some DAY4 scripts create or use files in the repository root:
+
+| File | Purpose |
+| --- | --- |
+| `students.csv` | CSV output created by `DAY4/importcsv.py` |
+| `results1.csv` | CSV output created by `DAY4/result.py` |
+| `myfile.txt` | Sample text file used in file handling examples |
+| `cowboy.jpg` | Sample binary input file used in file handling examples |
+| `album poster.jpg` | Binary output created from `cowboy.jpg` |
+
 ## How to Run
 
 Run any file from the repository root:
 
 ```bash
-python DAY3/functions.py
+python DAY4/result.py
 ```
 
 Some programs expect terminal input, while others print output directly.

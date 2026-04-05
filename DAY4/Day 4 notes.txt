@@ -7,3 +7,5 @@ that part rest of the code should be executed and error part will be handled by 
 so our normal flow of execution will continue 
 
 Default except block should be in last otherwise syntax error 
+
+File Handling 
