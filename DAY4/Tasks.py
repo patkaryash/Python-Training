@@ -31,5 +31,5 @@ for i in range(len(mylist)):
         if key == mylist[j]:
             count += 1
             newlist.append(key)
-        j += 1
+        j += 2
 print(len(newlist))
