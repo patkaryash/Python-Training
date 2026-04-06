@@ -1,3 +1,22 @@
-Object Oriented Programming  
+    Object Oriented Programming  
 
-object is an instance of class 
+    object is an instance of class 
+
+    if any instance variable we are declaring in a method then it is called as instance method
+
+
+    static method when the code that belongs to class it do not use the object
+    they are not dependent on the state of object
+    we will not use an instance or class variable
+    self and cls argument doesnt required here to declare
+    we can declare static method using @staticmethod decorator 
+
+
+    Inheritance: extending property from one class to another class is called Inheritance
+    base class: a class which inherits its property to another is called base class or parent class
+    derived class: a class in which properties are inherited called as derived class or child class
+    Types: 1.Single Inheritance
+        2.Multilevel Inheritance
+        3.Multiple Inheritance
+
+
