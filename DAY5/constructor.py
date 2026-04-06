@@ -44,12 +44,12 @@
 #Constructor overloading is not possible in python
 #If we define multiple constructors in a class then the last constructor will be considered as the default constructor and the previous constructors will be ignored
 class Arithmatic:
-    def __init__(self):
+    def __init__(self):   # type: ignore
         print("There is no argument")
-    def __init__(self,a):
+    def __init__(self,a): # type: ignore
         print("There is one argument",a)
-    def __init__(self,a,b):
+    def __init__(self,a,b): # type: ignore
         print("There are two arguments",a,b)
-obj1 = Arithmatic()   #TypeError: __init__() missing 2 required positional arguments: 'a' and 'b'
-obj2 = Arithmatic(10)   #TypeError: __init__() missing 1 required positional argument: 'b'
-obj3 = Arithmatic(1,2)   #There are two arguments 10 20
+obj1 = Arithmatic()   #TypeError: __init__() missing 2 required positional arguments: 'a' and 'b'  #type: ignore
+obj2 = Arithmatic(10)   #TypeError: __init__() missing 1 required positional argument: 'b'  #type: ignore
+obj3 = Arithmatic(1,2)   #There are two arguments 10 20  #type: ignore

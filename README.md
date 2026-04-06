@@ -11,6 +11,7 @@ Coding-Prashant-JHA/
 ├── DAY2/
 ├── DAY3/
 ├── DAY4/
+├── DAY5/
 ├── myfile.txt
 ├── results1.csv
 ├── students.csv
@@ -41,6 +42,7 @@ If you want to follow the repo in order, this is the rough progression:
 2. `DAY2` - Lists, strings, tuples, loops, and beginner problem-solving practice.
 3. `DAY3` - Functions, dictionaries, nested loops, and slightly more structured exercises.
 4. `DAY4` - String methods, exception handling, file handling, and CSV writing practice.
+5. `DAY5` - Object-oriented programming with classes, constructors, instance variables, inheritance, polymorphism, and a simple CRUD class project.
 
 ### DAY2
 
@@ -83,6 +85,19 @@ Predefined string methods, exception handling, file handling, and CSV practice:
 - text and binary file handling with `open()`, `read()`, `write()`, and `with`
 - CSV writing for student and result records
 - extra practice with list products, vowel/consonant counting, and removing list elements
+
+### DAY5
+
+Object-oriented programming practice and small class-based programs:
+
+- creating classes and objects
+- constructors and instance variables
+- instance methods, static variables, and static methods
+- single, multilevel, and multiple inheritance
+- polymorphism and method overriding
+- notes on why Python does not support traditional constructor or method overloading
+- a menu-driven CRUD example using classes
+- one extra list-based common-elements practice file
 
 ## File Guide
 
@@ -176,6 +191,29 @@ Predefined functions, exception handling, file handling, and CSV practice.
 | `DAY4/Tasks.py` | Mixed practice tasks on dictionaries, counting, loops, login checks, and vowel/consonant counting |
 | `DAY4/vowels cons.py` | Counts vowels and consonants in a string |
 | `DAY4/Day 4 notes.txt` | Notes on predefined functions, exception handling, and file handling |
+
+### DAY5
+
+Object-oriented programming examples that introduce classes, methods, inheritance, and polymorphism.
+
+| File | Purpose |
+| --- | --- |
+| `DAY5/class.py` | Basic class creation, class variable access, and method calling |
+| `DAY5/commonlists.py` | Finds common elements between two lists |
+| `DAY5/constructor.py` | Constructor basics plus notes and examples showing why Python keeps only the last `__init__` definition |
+| `DAY5/constructoroverriding.py` | Constructor overriding example using `super()` to call the parent constructor |
+| `DAY5/crud.py` | Menu-driven student CRUD system using a class and parallel lists |
+| `DAY5/instance.py` | Instance variable examples with constructor parameters and object display |
+| `DAY5/instancemethod.py` | Simple class storing student details through an instance method style constructor |
+| `DAY5/method overriding.py` | Parent-child method overriding example using `super()` |
+| `DAY5/methodoverloading.py` | Demonstrates why Python does not support true method overloading and shows a default-argument workaround |
+| `DAY5/multilevel.py` | Multilevel inheritance example with `College`, `Student`, and `Exam` classes |
+| `DAY5/multiplelevel.py` | Multiple inheritance result example using subject and practical marks |
+| `DAY5/polymorphism.py` | Polymorphism example where different objects respond to the same `role()` method |
+| `DAY5/SingleInheritance.py` | Single inheritance example for parent and child class behavior |
+| `DAY5/static.py` | Static variable example shared across multiple objects |
+| `DAY5/staticmethod.py` | Static method examples using the `@staticmethod` decorator |
+| `DAY5/DAY5 notes.txt` | Notes on OOP, inheritance, polymorphism, overloading, and overriding |
 
 ## Generated Files
 
