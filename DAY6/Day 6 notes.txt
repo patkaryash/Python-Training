@@ -12,4 +12,15 @@ Encapsulation: It is a process of protecting the data and functionality in a sin
 
 Data structures: Data structures are different ways of organizinf data on your computer, that can be used effectively
 it checks the problem solving abilities 
-algorithm:             
+algorithm:            
+
+
+
+Problem of Hanoi
+'''
+Rule:
+    1.We can move only one disk at a time.
+    2.We have to pick upper disk from any one pip
+    3.We have to place on top of any disk
+    4.We can not place any large disk on top of smaller disk
+'''
