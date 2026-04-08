@@ -48,3 +48,43 @@ isEmpty                           O(1)                 O(1)
 Delete Entire Stack               O(1)                 O(1)
 
 
+There are 2 ways to implement stack : 1) Array 2)Linked list 
+#IF-else Complexity O(1) beacause it only checks the condition one time
+
+Stack using list
+    -Easy to implement
+    -Speed problem when it grows
+
+Stack using linked list
+    -Faster Performance
+    -Implementation is not easy 
+
+
+                            Time Complexity     Space Complexity
+Create Queue                      O(1)                 O(1)
+Enqueue                           O(n)                 O(1)
+Dequeue                           O(n)                 O(1)
+Peek                              O(1)                 O(1)
+isEmpty                           O(1)                 O(1)
+Delete Entire Queue               O(1)                 O(1)
+
+
+Queue using list
+    -Easy to implement
+    -Speed problem when it grows
+
+Queue using linked list
+    -Faster Performance
+    -Implementation is not easy 
+
+
+
+
+Binary search is faster than linear search
+half of the remaining elements can be eliminated at a time
+
+
+A linked list is a linear data structure where each element(node) contains two parts:head and tail
+Data:the valude stored in the node
+Next: A pointer/reference to the next node in the sequence.
+
