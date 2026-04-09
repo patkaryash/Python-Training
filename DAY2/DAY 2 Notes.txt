@@ -1,12 +1,29 @@
-to extracting sub string from given string is basically known as slicing of string
-there are 4 types of collection data type in python
-list: orderwise data, hetereogenious,growable,heterogeneous,mutable
+DAY 2 NOTES
+============
 
-alising of list means assigning one variable references to another variable
+Strings and Collections
+-----------------------
 
-tuple is immutable 
+1. Extracting a substring from a string is called slicing.
+2. Python provides collection data types for storing multiple values.
+3. A list stores data in order and is:
+   - heterogeneous
+   - growable
+   - mutable
+4. A tuple is immutable.
 
-diff bw list and tuple: if clients requirements are not going to change then we use tuple but
- if the client says that the requirements may change in future then we use list
+Aliasing
+--------
 
-zip () onsode we can takek multiple range function and print them together
+Aliasing in a list means assigning one variable reference to another variable.
+
+List vs Tuple
+-------------
+
+- Use a tuple when the values are not expected to change.
+- Use a list when the values may change in the future.
+
+`zip()` Function
+----------------
+
+The `zip()` function can be used to take multiple iterables together and access their values in parallel.

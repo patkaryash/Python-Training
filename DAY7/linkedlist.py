@@ -16,7 +16,7 @@ third           = Node(15)
 
 #linking part
 linkedlist.head.next= second
-second.next= third
+second.next= third 
 third.next= fourth
 
 

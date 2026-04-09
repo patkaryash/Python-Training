@@ -1,90 +1,115 @@
-DAY 7 start
+DAY 7 NOTES
+============
 
+Time Complexity
+---------------
 
-Time Complexity 
+Big O notation describes how the running time of an algorithm grows as the input size increases.
 
-Big O Notation
-O(1)        -   Constant Time       -   Accessing a specific eleement in array
-O(n)        -   Linear Time         -   Loop through array elements
-O(log n)    -   Logarithmic Time    -   Find an element in sorted array
-O(n^2)      -   Quadratic Time      -   Looking at every index in the array twice
-O(2^n)      -   Exponential Time    -   Double recursion in Fibonacci
-O(n log n)  -   Log-Linear Time     -   Merge Sort
+Common complexities:
 
-O(1) - Constant Time
-array = [1,2,3,4,5]
-array[0] //It takes constant time to access first element
+- `O(1)` constant time
+- `O(n)` linear time
+- `O(log n)` logarithmic time
+- `O(n^2)` quadratic time
+- `O(2^n)` exponential time
+- `O(n log n)` log-linear time
 
-O(n) - Linear Time
-array = [1,2,3,4,5]
+Examples
+--------
+
+`O(1)` - Constant time
+
+```python
+array = [1, 2, 3, 4, 5]
+print(array[0])
+```
+
+`O(n)` - Linear time
+
+```python
+array = [1, 2, 3, 4, 5]
 for element in array:
-    print(element) //Linear time since it is visiting every element of the array
+    print(element)
+```
 
-O(LogN)- Logarithmic time
-array = [1,2,3,4,5]
-for index in range(0, len(array), 3):
-    print(array[index])
-//Logarithmic time since it is visiting only some elements
+`O(n^2)` - Quadratic time
 
-
-O(N^2) - Quadratic time
-array = [1,2,3,4,5]
+```python
+array = [1, 2, 3, 4, 5]
 for x in array:
-    for y in array:            #we will assign n^2 even if there are more nested loops 
-        print(x,y)
+    for y in array:
+        print(x, y)
+```
 
-O(2^N) - Exponential time
+`O(2^n)` - Exponential time
+
+```python
 def fibonacci(n):
-    if n<=1:
-        return n 
-    return fibonacci(n-1) + fibonacci(n-2)
+    if n <= 1:
+        return n
+    return fibonacci(n - 1) + fibonacci(n - 2)
+```
 
-                            Time Complexity     Space Complexity
-Create Stack                      O(1)                 O(1)
-Push                             O(1)/O(n^2)           O(1)
-Pop                               O(1)                 O(1)
-Peek                              O(1)                 O(1)
-isEmpty                           O(1)                 O(1)
-Delete Entire Stack               O(1)                 O(1)
+Stack
+-----
 
+Basic stack operation complexity:
 
-There are 2 ways to implement stack : 1) Array 2)Linked list 
-#IF-else Complexity O(1) beacause it only checks the condition one time
+| Operation | Time Complexity | Space Complexity |
+| --- | --- | --- |
+| Create Stack | `O(1)` | `O(1)` |
+| Push | `O(1)` | `O(1)` |
+| Pop | `O(1)` | `O(1)` |
+| Peek | `O(1)` | `O(1)` |
+| `isEmpty()` | `O(1)` | `O(1)` |
+| Delete Entire Stack | `O(1)` | `O(1)` |
 
-Stack using list
-    -Easy to implement
-    -Speed problem when it grows
+There are two common ways to implement a stack:
 
-Stack using linked list
-    -Faster Performance
-    -Implementation is not easy 
+1. Using a list or array
+2. Using a linked list
 
+Stack using list:
+- easy to implement
+- may become slower as it grows
 
-                            Time Complexity     Space Complexity
-Create Queue                      O(1)                 O(1)
-Enqueue                           O(n)                 O(1)
-Dequeue                           O(n)                 O(1)
-Peek                              O(1)                 O(1)
-isEmpty                           O(1)                 O(1)
-Delete Entire Queue               O(1)                 O(1)
+Stack using linked list:
+- faster for some operations
+- a little harder to implement
 
+Queue
+-----
 
-Queue using list
-    -Easy to implement
-    -Speed problem when it grows
+Basic queue operation complexity:
 
-Queue using linked list
-    -Faster Performance
-    -Implementation is not easy 
+| Operation | Time Complexity | Space Complexity |
+| --- | --- | --- |
+| Create Queue | `O(1)` | `O(1)` |
+| Enqueue | `O(n)` | `O(1)` |
+| Dequeue | `O(n)` | `O(1)` |
+| Peek | `O(1)` | `O(1)` |
+| `isEmpty()` | `O(1)` | `O(1)` |
+| Delete Entire Queue | `O(1)` | `O(1)` |
 
+Queue using list:
+- easy to implement
+- may become slower as it grows
 
+Queue using linked list:
+- better performance in many cases
+- implementation is not as easy
 
+Searching
+---------
 
-Binary search is faster than linear search
-half of the remaining elements can be eliminated at a time
+Binary search is faster than linear search for sorted data because it eliminates half of the remaining elements at each step.
 
+Linked List
+-----------
 
-A linked list is a linear data structure where each element(node) contains two parts:head and tail
-Data:the valude stored in the node
-Next: A pointer/reference to the next node in the sequence.
+A linked list is a linear data structure where each node contains:
+
+- data: the value stored in the node
+- next: a reference to the next node in the sequence
 

@@ -1,16 +1,34 @@
-Dictionary datatype represent data as key and value pair 
+DAY 3 NOTES
+============
 
-function is a self contained block which is executed separately 
-types - built in function ,  user defined
-built in - predefined function is already present inside of python library.
-user defined- acc to program requirements programmer can developed the function this is called user defined function.
+Functions
+---------
 
-Q.How many types of argument we can pass in function
-1.Postitional argument 
-2.Keyword argument 
-3.Default argument 
-4.Variable number of argument / variable length argument 
+1. A function is a self-contained block of code that can be executed separately.
+2. There are two main types of functions:
+   - built-in functions
+   - user-defined functions
+3. Built-in functions are already available in Python.
+4. User-defined functions are created by the programmer according to program requirements.
 
-1. rstrip() ==> TO remove spaces at right hand side
-2. lstrip()==> To remove spaces at left hand side
-3. strip() ==> To remove spaces both sides
+Types of Arguments
+------------------
+
+The main types of arguments used in functions are:
+
+1. Positional arguments
+2. Keyword arguments
+3. Default arguments
+4. Variable-length arguments
+
+Dictionary
+----------
+
+A dictionary represents data in key-value pairs.
+
+String Trimming Functions
+-------------------------
+
+1. `rstrip()` removes spaces from the right-hand side.
+2. `lstrip()` removes spaces from the left-hand side.
+3. `strip()` removes spaces from both sides.

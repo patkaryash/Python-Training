@@ -1,11 +1,24 @@
-DAY 4 notes:
+DAY 4 NOTES
+============
 
-predefined functions 
+Predefined Functions
+--------------------
 
-Exception Handling : It means suppose if any runtime error generate in any part of the code so except 
-that part rest of the code should be executed and error part will be handled by exception handling code 
-so our normal flow of execution will continue 
+Python provides many predefined functions and string methods that help us perform common tasks quickly.
 
-Default except block should be in last otherwise syntax error 
+Exception Handling
+------------------
 
-File Handling 
+Exception handling is used to manage runtime errors so that the rest of the program can continue to run normally.
+
+Main idea:
+- the error part is handled separately
+- the normal flow of execution can continue
+
+Important rule:
+- the default `except` block should be written last, otherwise it can cause a syntax or logic problem
+
+File Handling
+-------------
+
+File handling is used to read data from files, write data to files, and manage stored information using Python programs.

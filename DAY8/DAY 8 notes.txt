@@ -1,0 +1,20 @@
+DAY 8 NOTES
+============
+
+Matrix Input
+------------
+
+1. A matrix can be stored in Python using a nested list.
+2. The number of rows and columns can be taken from user input.
+3. Each row is entered separately and stored inside the main list.
+4. We can traverse the matrix row by row using a loop.
+
+Row-Wise Maximum
+----------------
+
+To find the biggest number from each row:
+
+1. Read one row at a time.
+2. Store that row in the matrix.
+3. Use `max(row)` for every row.
+4. Print the result for each row separately.

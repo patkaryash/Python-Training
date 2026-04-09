@@ -1,13 +1,24 @@
-why python is called as dynamically typed language?
-->python interpreter decides the value and data type 
+DAY 1 NOTES
+============
 
+Python Basics
+-------------
 
-all fundamental data types are immutable 
-yt - Life at Google
+1. Python is called a dynamically typed language because the Python interpreter decides the value type at runtime.
+2. All fundamental data types are immutable.
+3. Converting a value from one data type to another is called type casting.
+4. The `input()` function accepts data as a string by default.
+5. Python has reserved keywords that are built in to the language syntax.
 
-conversion of value from one data type to another data type is called as typecasting
-input function bydefault accepts only string value 
-there are total 33 reserver keywords in python that comes along w python they are inbuilt
+Operators
+---------
 
-when we want to do adress comparison then we should go for identity operators
-by using membership operator we check that the object is present or not in collection data structure like(list, tuple,set,dict,string)
+1. Identity operators are used when we want to compare addresses or object identity.
+2. Membership operators are used to check whether an object is present inside a collection.
+
+Examples of collections:
+- list
+- tuple
+- set
+- dictionary
+- string

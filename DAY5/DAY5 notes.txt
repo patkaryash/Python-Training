@@ -1,32 +1,52 @@
-    Object Oriented Programming  
+DAY 5 NOTES
+============
 
-    object is an instance of class 
+Object-Oriented Programming
+---------------------------
 
-    if any instance variable we are declaring in a method then it is called as instance method
+1. Object-oriented programming organizes code using classes and objects.
+2. An object is an instance of a class.
+3. When instance variables are used inside methods, those methods are called instance methods.
 
+Static Method
+-------------
 
-    static method when the code that belongs to class it do not use the object
-    they are not dependent on the state of object
-    we will not use an instance or class variable
-    self and cls argument doesnt required here to declare
-    we can declare static method using @staticmethod decorator 
+A static method is used when the code belongs to the class but does not depend on object state.
 
+Key points:
+- it does not use instance variables
+- it does not use class variables by default
+- `self` and `cls` are not required
+- it is declared using the `@staticmethod` decorator
 
-    Inheritance: extending property from one class to another class is called Inheritance
-    base class: a class which inherits its property to another is called base class or parent class
-    derived class: a class in which properties are inherited called as derived class or child class
-    Types: 1.Single Inheritance
-        2.Multilevel Inheritance
-        3.Multiple Inheritance
+Inheritance
+-----------
 
+Inheritance means extending properties from one class to another class.
 
-Polymorphism: means having many forms
-we can define Polymorphism as the ability of a message to be displayed in more than one form
-types: Compile time Polymorphism
+- Base class or parent class:
+  the class that gives its properties to another class
+- Derived class or child class:
+  the class that inherits those properties
 
+Types of inheritance:
+1. Single inheritance
+2. Multilevel inheritance
+3. Multiple inheritance
 
-Overloading: python only supports operator overloading and does not suppor method and constuctor overloading
-Function overloading: a function having same name but different arguments then such type of function is called as function overloading
+Polymorphism
+------------
 
+Polymorphism means having many forms. It is the ability of the same message or method name to behave differently in different situations.
 
-Overriding: python supports method and constuctor Overriding
+Overloading
+-----------
+
+Python supports operator overloading, but it does not support traditional method overloading or constructor overloading like some other languages.
+
+Function overloading means using the same function name with different arguments, but Python usually handles this with default arguments or flexible parameters.
+
+Overriding
+----------
+
+Python supports method overriding and constructor overriding.

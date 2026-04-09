@@ -1,26 +1,35 @@
-DAY 6 Start
+DAY 6 NOTES
+============
 
-Abstract class: A class which contains one or more abstract methos is called an abstract class
-an abstract method is a methodthat has a declaration but does not have implementation
+Abstract Class
+--------------
 
-While we are designing large functional units we use an abstract class.
-when we want to provide a common interface for different implementation
-we use an abstract class
+1. A class that contains one or more abstract methods is called an abstract class.
+2. An abstract method has a declaration but does not have an implementation.
+3. We use abstract classes while designing large functional units.
+4. We also use them when we want to provide a common interface for different implementations.
 
-Encapsulation: It is a process of protecting the data and functionality in a single unit 
+Encapsulation
+-------------
 
+Encapsulation is the process of protecting data and functionality inside a single unit.
 
-Data structures: Data structures are different ways of organizinf data on your computer, that can be used effectively
-it checks the problem solving abilities 
-algorithm:            
+Data Structures
+---------------
 
+Data structures are different ways of organizing data on a computer so that it can be used effectively.
 
+Algorithm
+---------
 
-Problem of Hanoi
-'''
-Rule:
-    1.We can move only one disk at a time.
-    2.We have to pick upper disk from any one pip
-    3.We have to place on top of any disk
-    4.We can not place any large disk on top of smaller disk
-'''
+An algorithm is a step-by-step procedure to solve a problem.
+
+Tower of Hanoi
+--------------
+
+Rules:
+
+1. We can move only one disk at a time.
+2. We have to pick the upper disk from any one peg.
+3. We have to place it on top of another peg.
+4. We cannot place a larger disk on top of a smaller disk.
