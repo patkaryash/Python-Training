@@ -91,8 +91,10 @@ Coding-Prashant-JHA/
 ### DAY8
 
 - Matrix input using nested lists
-- Row-wise traversal
-- Finding the maximum value from each row
+- Row-wise traversal and row-wise maximum
+- Regular expressions with `re.compile()`, `match()`, `search()`, `findall()`, `sub()`, `subn()`, `split()`, and `fullmatch()`
+- Pattern matching for numbers, email IDs, and character classes
+- File existence checking with `os.path.isfile()`
 
 ## Notes Files
 
@@ -106,6 +108,24 @@ Each day includes a short note file for quick revision:
 - `DAY6/Day 6 notes.txt`
 - `DAY7/DAY 7.txt`
 - `DAY8/DAY 8 notes.txt`
+
+## Day 8 Practice Files
+
+The `DAY8/` folder includes small Python programs for matrix and regex practice:
+
+- `matrixinput.py` - takes a matrix as input and prints the biggest number from each row
+- `regex.py` - finds repeated matches using `re.compile()` and `finditer()`
+- `regex2.py` - counts matches with `finditer()`
+- `regex3.py` - searches for a user-provided character inside a string
+- `match.py` - demonstrates `re.match()`
+- `searchfun.py` - demonstrates `re.search()` and searches text inside a file
+- `findall.py` - demonstrates `re.findall()`
+- `fullmatch.py` - demonstrates `re.fullmatch()`
+- `sub().py` - demonstrates `re.sub()`
+- `subn().py` - demonstrates `re.subn()`
+- `leadingzero.py` - removes leading zeros from a list
+- `validnumber.py` - validates an email ID using `re.fullmatch()`
+- `file exits.py` - checks whether a file exists and prints its content
 
 ## Example Run
 

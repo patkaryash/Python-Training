@@ -1,20 +1,103 @@
-DAY 8 NOTES
-============
+# DAY 8 NOTES
 
-Matrix Input
-------------
+## Matrix Input
 
-1. A matrix can be stored in Python using a nested list.
-2. The number of rows and columns can be taken from user input.
-3. Each row is entered separately and stored inside the main list.
-4. We can traverse the matrix row by row using a loop.
+- A matrix can be stored in Python using a nested list.
+- The number of rows and columns can be taken from user input.
+- Each row is entered separately and stored inside the main list.
+- We can traverse the matrix row by row using a loop.
 
-Row-Wise Maximum
-----------------
+### Example
+
+```python
+rows = int(input("Enter rows: "))
+cols = int(input("Enter columns: "))
+
+matrix = []
+for i in range(rows):
+    row = list(map(int, input(f"Enter row {i + 1}: ").split()))
+    matrix.append(row)
+```
+
+## Row-Wise Maximum
 
 To find the biggest number from each row:
 
-1. Read one row at a time.
-2. Store that row in the matrix.
-3. Use `max(row)` for every row.
-4. Print the result for each row separately.
+- Read one row at a time.
+- Store that row in the matrix.
+- Use `max(row)` for every row.
+- Print the result for each row separately.
+
+### Example
+
+```python
+for row in matrix:
+    print(max(row))
+```
+
+## Regular Expressions
+
+Regular expressions are used for:
+
+- Developing digital circuits
+- Developing compilers and interpreters
+- Developing communication protocols like TCP/IP
+- Developing validation logic
+- Pattern matching and searching applications like `Ctrl + F`
+
+The `re` engine is written in C language, and it provides the `re` module in Python.
+
+## `re.compile()` Function
+
+The `compile()` function is available inside the `re` module.
+
+It compiles a pattern into a regular expression object, which provides several useful methods.
+
+| Method | Purpose |
+| --- | --- |
+| `start()` | Returns the starting index |
+| `group()` | Returns the matching string |
+| `match()` | Matches the pattern at the beginning of the string |
+| `search()` | Searches anywhere in the string and returns a match object if found |
+| `findall()` | Returns a list containing all matches |
+| `sub()` | Performs substitution or replacement |
+| `subn()` | Like `sub()`, but also returns the number of replacements |
+| `split()` | Splits the string based on a pattern |
+
+### `sub()` Example
+
+```python
+import re
+
+text = "I like Python"
+result = re.sub("Python", "Java", text)
+print(result)
+```
+
+### `subn()` Example
+
+```python
+import re
+
+text = "apple apple orange"
+result = re.subn("apple", "mango", text)
+print(result)
+```
+
+## Match Character Classes
+
+Character classes are used to match a group of characters.
+
+| Pattern | Meaning |
+| --- | --- |
+| `[abc]` | Either `a`, `b`, or `c` |
+| `[^abc]` | Anything except `a`, `b`, or `c` |
+
+### Example
+
+```python
+import re
+
+text = "cat bat rat"
+print(re.findall("[abr]at", text))
+```
