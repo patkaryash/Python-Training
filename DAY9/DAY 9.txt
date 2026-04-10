@@ -1,0 +1,29 @@
+DAY 9 NOTES:
+
+Recursion = a way of solving a problem by having a function calling itself
+we use recursion especially in the cases we know that a problem can be divided into similar sub problems 
+
+POINTS                      RECURSION      ITERATION
+Space Efficient?              NO              YES         No stack memory require in case of iteration 
+
+
+Time Efficient?               NO              YES         In case of recursion system needs more time 
+                                                          for pop and push elements to stack memory which 
+                                                          makes recursion less time efficient
+
+
+Easy to code?                  YES             NO          we use recursion especially in the cases we know that 
+                                                            a problem can be divided into similar sub problems 
+
+
+
+Tree : It is a nonlinear data structure with hiearchical relationships beterrn its elements without having any cycle.
+       it is basically reverse from a real life tree 
+
+
+Complete Binary Tree: All levels except possibly the last are completely filled
+Nodes in the last level are 
+
+Perfect Binary Tree:
+All internal nodes have exavtly two nodes
+all leaf nodes are at the same level
