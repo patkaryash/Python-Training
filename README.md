@@ -19,7 +19,6 @@ A day-wise Python and problem-solving notebook with short notes, small runnable 
 - [HACKERRANK Practice](#hackerrank-practice)
 - [How to Run](#how-to-run)
 - [Purpose](#purpose)
-- [Keeping This README Updated](#keeping-this-readme-updated)
 
 ## At a Glance
 
@@ -359,11 +358,3 @@ Some files take user input from the terminal, while others simply print results.
 ## Purpose
 
 This repository works like a personal Python practice notebook. The goal is to keep each concept small, runnable, and easy to revisit during revision.
-
-## Keeping This README Updated
-
-- Add new folders to the repository structure tree.
-- Add the new folder to the learning journey table.
-- Add or update the notes file list when a new note file is created.
-- Refresh the practice file groups when you add new scripts.
-- Replace or expand the featured files whenever a better revision example appears.
